@@ -4,7 +4,7 @@
 
 .year, .age {
   font-size: 18px;
-  fill: #000000;
+  fill: #c200fb;
   cursor: default;
 }
 
@@ -15,7 +15,7 @@ a, a:visited, a:active {
 }
 
 .text_footer {
-  color: #FFFFFF;
+  color: #ffcbf2;
     font-size: 15px;
 }
 

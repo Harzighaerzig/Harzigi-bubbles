@@ -122,7 +122,7 @@ var agecatCenters = { // Center locations of the bubbles.
 // Dritter Button: Geschlecht
     
   var sexCenters = { // Center locations of the bubbles. 
-    'Maennlich': { x: 250, y: height / 2  },
+    'Maennlich': { x: 290, y: height / 2  },
     'Weiblich': { x: 450, y: height / 2  },
     'Non-Binaer': { x: 600, y: height / 2  },
     'null': { x: 750, y: height / 2  }
@@ -130,7 +130,7 @@ var agecatCenters = { // Center locations of the bubbles.
   };
 
   var sexTitleX = {  // X locations of the year titles.
-    'Männer': 170,
+    'Männer': 190,
     'Frauen': 480,
     'Nichtbinär': 720,
     'Keine Antwort': 900
@@ -141,7 +141,7 @@ var agecatCenters = { // Center locations of the bubbles.
 // Vierter Button: Bildschirmzeit
     
   var screentimeCenters = { // Center locations of the bubbles. 
-    'weniger als 1h': { x: 180, y: height / 2 },
+    'weniger als 1h': { x: 220, y: height / 2 },
     '1h-2h': { x: 300, y: height / 2 },
     '2h-3h': { x: 420, y: height / 2 },
     '3h-4h': { x: 550, y: height / 2 },
@@ -857,7 +857,7 @@ function moveToAgecat(alpha) {
 
   var fillColor = d3.scale.ordinal()
     .domain(['1','2','3', '4','5','6'])
-    .range(['#F7CAD0', '#ADE8F4', '#48CAE4', '#0096C7','#023E8A','#03045E']);
+    .range(['#FF0000', '#ff8fa3', '#ff4d6d', '#c9184a','#a4133c','#800f2f']);
 
   /* Tooltip-Funktion*/
   function showDetail(d) {
